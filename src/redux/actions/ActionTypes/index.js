@@ -1,0 +1,5 @@
+export const SET_EPISODE = 'SET_EPISODE';
+export const DELETE_EPISODE = 'DELETE_EPISODE';
+export const DONE_EPISODE = 'DONE_EPISODE';
+export const SET_EPISODES = 'SET_EPISODES';
+export const WILL_WATCH_EPISODE = 'WILL_WATCH_EPISODE';

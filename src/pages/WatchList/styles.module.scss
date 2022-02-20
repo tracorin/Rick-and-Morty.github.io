@@ -1,0 +1,24 @@
+.watch{
+    
+    &__title{
+        font-size: 32px;
+        padding-bottom: 2rem;
+    }
+    &__input{
+        display: flex;
+        height: 50px;
+        justify-content: space-between;
+        
+        input{
+           padding: 20px ;    
+           width: 1000px;
+           outline: none;
+        }
+    }
+    &__button{
+        padding-left: 20px;
+    }
+    &__list{
+        padding-top: 2rem;
+    }
+}

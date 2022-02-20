@@ -1,0 +1,9 @@
+.dashboard{
+    display: flex;
+    height: 100vh;
+    &__content{
+        overflow: auto;
+        width: 100%;
+        padding: 2rem;
+    }
+}

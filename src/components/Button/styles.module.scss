@@ -1,0 +1,25 @@
+.button{
+    background-color: transparent;
+    border: 1px solid rgb(216, 216, 216);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .3s ease-in;
+    &:hover{
+        background-color: rgb(66, 66, 66);
+        color: white;
+    }
+}
+
+.disable{
+    background-color: transparent;
+    border: 1px solid rgb(216, 216, 216);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}

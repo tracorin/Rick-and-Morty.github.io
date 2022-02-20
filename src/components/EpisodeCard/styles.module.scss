@@ -1,0 +1,42 @@
+.card{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid rgb(196, 196, 196);
+    margin-bottom: 10px;
+    &__opacity{
+        opacity: 0.5;
+    }
+}
+
+.line{
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left: 40px;
+    right: 40px;
+}
+
+.button{
+    cursor: pointer;
+}
+
+.checkbox{
+    height: 20px;
+    width: 20px;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 360px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__checked{
+        width: 16px;
+        height: 16px;
+        background-color: rgb(87, 87, 255);
+        border-radius: 360px;
+    }
+}
